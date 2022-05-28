@@ -1,0 +1,4 @@
+#!/bin/bash
+cp /etc/tor/torrc.fast /etc/tor/torrc
+pid=$(pidof tor)
+kill -SIGHUP $pid
