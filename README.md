@@ -18,4 +18,4 @@ sudo nano /etc/tor/torrc.fast
  chmod +x torcron.fast
  
 ## 4. Edit crontab 
- sudo crontab
+ sudo crontab -e
